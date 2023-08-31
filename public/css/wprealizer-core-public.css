@@ -1,0 +1,66 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .job-result-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2%;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+}
+.job-result-content .job-result-thumb {
+    max-width: 25%;
+}
+.job-result-content .job-result-thumb img{
+    max-width: 100%;
+    height: auto;
+
+}
+.job-result-content > div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    align-self: center;
+}
+.job-result-content .job-result-info {
+    max-width: 70%;
+    padding: 0 2%;
+}
+.job-result-content .job-result-button {
+    max-width: 15%;
+}
+p:not(.has-background):last-of-type {
+    padding-bottom: 0;
+}
+.job-result-info h2 {
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.job-result-content .job-result-info .job-category {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.job-result-content .job-result-info p {
+    line-height: 20px;
+}
+button.see-job {
+    background: #0c87b2;
+}
+.job-result-button button {
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+
